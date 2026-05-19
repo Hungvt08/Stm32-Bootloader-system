@@ -26,32 +26,6 @@ The bootloader selects which application to run based on button state during sta
 
 
 
-\## Flash Layout
-
-
-
-| Firmware | Flash Sector | Address |
-
-|----------|--------------|----------|
-
-| Bootloader | Sector 0 | 0x08000000 |
-
-| Application1 | Sector 1 | 0x08004000 |
-
-| Application2 | Sector 2 | 0x08008000 |
-
-
-
-\## Boot Flow
-
-
-
-\- Button pressed → Run Application1
-
-\- Button released → Run Application2
-
-
-
 \## Technologies
 
 \- STM32F411VE
