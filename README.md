@@ -36,3 +36,9 @@ The bootloader selects which application to run based on button state during sta
 
 \- ARM Cortex-M4
 
+
+
+\## Demo
+
+!\[demo](docs/images/demo.gif)
+
